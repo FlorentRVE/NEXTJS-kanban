@@ -1,9 +1,18 @@
-import { CardComponent } from "@/components/CardComponent";
-import { getCategory } from "@/prisma/category";
+"use client";
 
-export default async function Home() {
-  
-  const categories = await getCategory();
+import { CardComponent } from "@/components/CardComponent";
+import { Category } from "@prisma/client";
+import { useEffect, useState } from "react";
+
+export default function Home() {
+
+  const [categoryList, setCategoryList] = useState<Category[]>([]);
+
+  useEffect(() => {
+    fetch("/api/categories")
+      .then((res) => res.json())
+      .then((data) => setCategoryList(data));
+  }, []);
 
   return (
     <div className="h-screen flex flex-col">
@@ -12,7 +21,7 @@ export default async function Home() {
       </div>
 
       <div className="flex justify-center gap-10 p-10 bg-slate-500 flex-1">
-        {categories.map((category) => (
+        {categoryList.map((category) => (
           <CardComponent
             categoryId={category.id}
             label={category.title}
