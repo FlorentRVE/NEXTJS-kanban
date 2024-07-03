@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# KANBAN
 
-## Getting Started
+![REACT](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TAILWINDCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![NEXTJS](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TYPESCRIPT](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![TYPESCRIPT](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![MONGODB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![PRISMA](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Exercice to do list style Kanban
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Sommaire
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Aperçu](#aperçu)
+  - [Le projet](#le-projet)
+  - [Screenshot](#screenshot)
+- [Méthode](#méthode)
+  - [Outils](#outils)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Aperçu
 
-## Learn More
+### Le projet
 
-To learn more about Next.js, take a look at the following resources:
+Les objectifs du projet :
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Création d'une To do list en utilisant Next.js
+- Gestion de la BDD MongoDB avec Prisma 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Screenshot
 
-## Deploy on Vercel
+![screenshot](/Animation_4.gif)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Méthode
+
+### Compétences acquises
+
+- Utilisation de l'ORM Prisma avec MongoDB
+- Découverte Next.js avec création d'endpoints
+
+### Outils
+
+- [Next.js]([https://symfony.com/](https://nextjs.org/))
+- [Prisma]((https://www.prisma.io/))
+- [TailwindCSS]((https://tailwindcss.com/))
+- [MongoDB](https://www.mongodb.com/fr-fr)
