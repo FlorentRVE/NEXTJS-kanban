@@ -42,7 +42,7 @@ Les objectifs du projet :
 
 ### Outils
 
-- [Next.js]([https://symfony.com/](https://nextjs.org/))
-- [Prisma]((https://www.prisma.io/))
-- [TailwindCSS]((https://tailwindcss.com/))
+- [Next.js](https://nextjs.org/)
+- [Prisma](https://www.prisma.io/)
+- [TailwindCSS](https://tailwindcss.com/)
 - [MongoDB](https://www.mongodb.com/fr-fr)
